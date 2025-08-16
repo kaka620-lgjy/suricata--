@@ -16,24 +16,23 @@ Suricata IDS 规则管理器是一个基于 Python Tkinter 开发的图形化工
 - **规则删除**: 批量删除选中的规则
 - **规则搜索**: 支持按内容、SID、类型、消息等多维度搜索
 - **规则过滤**: 按告警类型、优先级、协议等条件过滤
+  <img width="1920" height="976" alt="image" src="https://github.com/user-attachments/assets/ccbcb155-a571-4fed-89c2-f979c2713e1b" />
+
 
 ### 📊 告警分析
 - **实时告警**: 显示 Suricata 实时告警信息
 - **告警统计**: 按类型、优先级、协议等维度统计告警
 - **告警详情**: 查看告警的详细信息，包括源IP、目标IP、端口等
 - **告警导出**: 支持将告警信息导出为文件
+  <img width="1920" height="979" alt="image" src="https://github.com/user-attachments/assets/b24bb61f-861d-4b61-be21-3b36404bd27e" />
+
 
 ### 📈 全量日志分析
 - **日志解析**: 解析 Suricata 全量日志文件
 - **流量分析**: 分析网络流量模式和异常行为
 - **数据包分析**: 支持 PCAP 文件分析
 - **统计报表**: 生成流量统计报表
-
-### 🌐 远程管理
-- **SSH 连接**: 支持通过 SSH 连接到远程 Suricata 服务器
-- **远程部署**: 将规则文件推送到远程服务器
-- **配置管理**: 保存和管理多个服务器连接配置
-- **批量操作**: 支持批量更新多个服务器的规则
+  <img width="1920" height="985" alt="image" src="https://github.com/user-attachments/assets/7a860f07-2c4d-43f5-925a-5b7959af3ba4" />
 
 ## 🛠️ 技术特性
 
@@ -42,124 +41,6 @@ Suricata IDS 规则管理器是一个基于 Python Tkinter 开发的图形化工
 - **用户友好**: 直观的图形化界面设计
 - **扩展性强**: 模块化设计，易于扩展新功能
 - **安全性**: 支持 SSH 密钥认证和密码加密存储
-
-## 📦 安装要求
-
-### 系统要求
-- Python 3.6 或更高版本
-- Windows 7/8/10/11 或 Linux/macOS
-- 至少 2GB 可用内存
-- 100MB 可用磁盘空间
-
-### 依赖包
-```
-paramiko>=2.8.0
-pyinstaller>=5.0
-```
-
-## 🚀 快速开始
-
-### 🎯 快速演示
-
-1. **下载项目**
-   ```bash
-   git clone <repository-url>
-   cd suricata-rules-master
-   ```
-
-2. **一键安装（Windows）**
-   ```
-   双击 install_requirements.bat
-   ```
-
-3. **运行程序**
-   ```bash
-   python suricata_rules_manager.py
-   ```
-
-### 方法一：直接运行 Python 脚本
-
-1. **克隆项目**
-   ```bash
-   git clone <repository-url>
-   cd suricata-rules-master
-   ```
-
-2. **安装依赖**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **运行程序**
-   ```bash
-   python suricata_rules_manager.py
-   ```
-
-### 方法二：使用批处理文件（Windows）
-
-1. **双击运行安装脚本**
-   ```
-   双击 install_requirements.bat
-   ```
-
-2. **运行程序**
-   ```
-   双击 suricata_rules_manager.py
-   ```
-
-### 方法三：打包为可执行文件
-
-1. **快速打包**
-   ```
-   双击 build.bat
-   ```
-
-2. **手动打包**
-   ```bash
-   python build_exe.py
-   ```
-
-3. **运行可执行文件**
-   ```
-   运行 dist/SuricataRulesManager.exe
-   ```
-
-## 📸 运行截图
-
-### 主界面
-![主界面](screenshots/main_interface.png)
-
-主界面采用标签页设计，包含三个核心功能模块：
-- **规则管理**: 用于管理 Suricata 规则文件，支持查看、编辑、添加、删除规则
-- **告警模块**: 显示实时告警信息，提供告警分析和统计功能
-- **全量日志**: 分析 Suricata 日志文件，支持流量分析和数据包分析
-
-### 规则管理界面
-![规则管理](screenshots/rules_management.png)
-
-规则管理界面采用左右分栏设计：
-- **左侧面板**: 规则树形结构显示，支持按类型、优先级等分类查看
-- **右侧面板**: 规则详细信息和编辑区域，支持在线编辑规则内容
-- **顶部工具栏**: 搜索和过滤功能，支持多维度规则查找
-- **底部按钮区**: 常用操作按钮，包括添加、删除、保存等
-
-### 告警分析界面
-![告警分析](screenshots/alert_analysis.png)
-
-告警分析界面提供全面的告警管理功能：
-- **实时告警列表**: 显示最新的告警信息，包括时间、类型、优先级等
-- **告警统计图表**: 可视化展示告警分布和趋势
-- **告警详情查看**: 查看告警的详细信息，包括源IP、目标IP、端口等
-- **告警导出功能**: 支持将告警信息导出为多种格式
-
-### 远程连接配置
-![远程连接](screenshots/remote_connection.png)
-
-远程连接功能支持多服务器管理：
-- **SSH 连接配置**: 支持密码和密钥认证方式
-- **服务器管理**: 保存和管理多个服务器连接配置
-- **规则文件推送**: 将本地规则文件推送到远程服务器
-- **连接状态监控**: 实时显示连接状态和操作结果
 
 ## 📁 项目结构
 
