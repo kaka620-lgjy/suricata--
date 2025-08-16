@@ -1,0 +1,158 @@
+2025-08-16 17:33:05,278 - INFO - 成功加载规则文件: suricata-ids.rules
+2025-08-16 17:33:11,722 - DEBUG - starting thread (client mode): 0xf6f2f080
+2025-08-16 17:33:11,723 - DEBUG - Local version/idstring: SSH-2.0-paramiko_3.4.0
+2025-08-16 17:33:11,723 - DEBUG - Remote version/idstring: SSH-2.0-OpenSSH_9.3
+2025-08-16 17:33:11,723 - INFO - Connected (version 2.0, client OpenSSH_9.3)
+2025-08-16 17:33:11,724 - DEBUG - === Key exchange possibilities ===
+2025-08-16 17:33:11,725 - DEBUG - kex algos: sntrup761x25519-sha512@openssh.com, curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256
+2025-08-16 17:33:11,725 - DEBUG - server key: rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+2025-08-16 17:33:11,725 - DEBUG - client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-08-16 17:33:11,726 - DEBUG - server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2025-08-16 17:33:11,726 - DEBUG - client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025-08-16 17:33:11,726 - DEBUG - server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2025-08-16 17:33:11,727 - DEBUG - client compress: none, zlib@openssh.com
+2025-08-16 17:33:11,727 - DEBUG - server compress: none, zlib@openssh.com
+2025-08-16 17:33:11,727 - DEBUG - client lang: <none>
+2025-08-16 17:33:11,727 - DEBUG - server lang: <none>
+2025-08-16 17:33:11,727 - DEBUG - kex follows: False
+2025-08-16 17:33:11,727 - DEBUG - === Key exchange agreements ===
+2025-08-16 17:33:11,728 - DEBUG - Kex: curve25519-sha256@libssh.org
+2025-08-16 17:33:11,728 - DEBUG - HostKey: ssh-ed25519
+2025-08-16 17:33:11,728 - DEBUG - Cipher: aes128-ctr
+2025-08-16 17:33:11,728 - DEBUG - MAC: hmac-sha2-256
+2025-08-16 17:33:11,728 - DEBUG - Compression: zlib@openssh.com
+2025-08-16 17:33:11,729 - DEBUG - === End of kex handshake ===
+2025-08-16 17:33:11,773 - DEBUG - kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2025-08-16 17:33:11,774 - DEBUG - Switch to new keys ...
+2025-08-16 17:33:11,775 - DEBUG - Adding ssh-ed25519 host key for 192.168.11.131: b'903c95c6035182715bb52f366cb770d8'
+2025-08-16 17:33:11,775 - DEBUG - Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com,ssh-dss,ssh-rsa,rsa-sha2-256,rsa-sha2-512', 'publickey-hostbound@openssh.com': b'0'}
+2025-08-16 17:33:11,815 - DEBUG - userauth is OK
+2025-08-16 17:33:11,856 - INFO - Authentication (password) successful!
+2025-08-16 17:33:11,856 - DEBUG - Switching on outbound compression ...
+2025-08-16 17:33:11,856 - DEBUG - Switching on inbound compression ...
+2025-08-16 17:33:11,857 - DEBUG - [chan 0] Max packet in: 32768 bytes
+2025-08-16 17:33:12,005 - DEBUG - Received global request "hostkeys-00@openssh.com"
+2025-08-16 17:33:12,006 - DEBUG - Rejecting "hostkeys-00@openssh.com" global request from server.
+2025-08-16 17:33:12,049 - DEBUG - [chan 0] Max packet out: 32768 bytes
+2025-08-16 17:33:12,050 - DEBUG - Secsh channel 0 opened.
+2025-08-16 17:33:12,053 - DEBUG - [chan 0] Sesch channel 0 request ok
+2025-08-16 17:33:12,075 - DEBUG - [chan 0] EOF received (0)
+2025-08-16 17:33:12,075 - DEBUG - [chan 0] EOF sent (0)
+2025-08-16 17:33:12,078 - DEBUG - [chan 1] Max packet in: 32768 bytes
+2025-08-16 17:33:12,117 - DEBUG - [chan 1] Max packet out: 32768 bytes
+2025-08-16 17:33:12,117 - DEBUG - Secsh channel 1 opened.
+2025-08-16 17:33:12,120 - DEBUG - [chan 1] Sesch channel 1 request ok
+2025-08-16 17:33:12,134 - INFO - [chan 1] Opened sftp connection (server version 3)
+2025-08-16 17:33:12,135 - DEBUG - [chan 1] open(b'/tmp/test.pcap', 'wb')
+2025-08-16 17:33:12,138 - DEBUG - [chan 1] open(b'/tmp/test.pcap', 'wb') -> 00000000
+2025-08-16 17:33:12,139 - DEBUG - [chan 1] close(00000000)
+2025-08-16 17:33:12,140 - DEBUG - [chan 1] stat(b'/tmp/test.pcap')
+2025-08-16 17:33:12,142 - INFO - [chan 1] sftp session closed.
+2025-08-16 17:33:12,142 - DEBUG - [chan 1] EOF sent (1)
+2025-08-16 17:33:12,143 - DEBUG - [chan 2] Max packet in: 32768 bytes
+2025-08-16 17:33:12,144 - DEBUG - [chan 1] EOF received (1)
+2025-08-16 17:33:12,144 - DEBUG - [chan 2] Max packet out: 32768 bytes
+2025-08-16 17:33:12,144 - DEBUG - Secsh channel 2 opened.
+2025-08-16 17:33:12,145 - DEBUG - [chan 2] Sesch channel 2 request ok
+2025-08-16 17:33:12,158 - DEBUG - [chan 2] EOF received (2)
+2025-08-16 17:33:12,158 - DEBUG - [chan 2] EOF sent (2)
+2025-08-16 17:33:12,159 - DEBUG - [chan 3] Max packet in: 32768 bytes
+2025-08-16 17:33:12,201 - DEBUG - [chan 3] Max packet out: 32768 bytes
+2025-08-16 17:33:12,201 - DEBUG - Secsh channel 3 opened.
+2025-08-16 17:33:12,203 - DEBUG - [chan 3] Sesch channel 3 request ok
+2025-08-16 17:33:12,214 - DEBUG - [chan 3] EOF received (3)
+2025-08-16 17:33:12,214 - DEBUG - [chan 3] EOF sent (3)
+2025-08-16 17:33:17,215 - DEBUG - [chan 4] Max packet in: 32768 bytes
+2025-08-16 17:33:17,217 - DEBUG - [chan 4] Max packet out: 32768 bytes
+2025-08-16 17:33:17,217 - DEBUG - Secsh channel 4 opened.
+2025-08-16 17:33:17,218 - DEBUG - [chan 4] Sesch channel 4 request ok
+2025-08-16 17:33:17,378 - DEBUG - [chan 4] EOF received (4)
+2025-08-16 17:33:17,378 - DEBUG - [chan 4] EOF sent (4)
+2025-08-16 17:33:27,380 - DEBUG - [chan 5] Max packet in: 32768 bytes
+2025-08-16 17:33:27,381 - DEBUG - [chan 5] Max packet out: 32768 bytes
+2025-08-16 17:33:27,382 - DEBUG - Secsh channel 5 opened.
+2025-08-16 17:33:27,383 - DEBUG - [chan 5] Sesch channel 5 request ok
+2025-08-16 17:33:27,427 - DEBUG - [chan 5] EOF received (5)
+2025-08-16 17:33:27,428 - DEBUG - [chan 5] EOF sent (5)
+2025-08-16 17:33:27,428 - DEBUG - 开始解析tcpreplay输出，长度: 0 字符
+2025-08-16 17:33:27,430 - DEBUG - tcpreplay原始输出:
+
+2025-08-16 17:33:27,430 - INFO - tcpreplay解析结果: {'total_packets': 0, 'successful_packets': 0, 'failed_packets': 0, 'packet_loss_rate': 0.0, 'bytes_sent': 0, 'duration': 0.0}
+2025-08-16 17:33:27,430 - INFO - 匹配的行数: 0
+2025-08-16 17:33:27,431 - INFO - 尝试下载告警日志: /tmp/suricata_output_1755336792/fast.log
+2025-08-16 17:33:27,432 - DEBUG - [chan 6] Max packet in: 32768 bytes
+2025-08-16 17:33:27,468 - DEBUG - [chan 6] Max packet out: 32768 bytes
+2025-08-16 17:33:27,469 - DEBUG - Secsh channel 6 opened.
+2025-08-16 17:33:27,470 - DEBUG - [chan 6] Sesch channel 6 request ok
+2025-08-16 17:33:27,483 - INFO - [chan 6] Opened sftp connection (server version 3)
+2025-08-16 17:33:27,484 - DEBUG - [chan 6] stat(b'/tmp/suricata_output_1755336792/fast.log')
+2025-08-16 17:33:27,485 - DEBUG - [chan 6] open(b'/tmp/suricata_output_1755336792/fast.log', 'rb')
+2025-08-16 17:33:27,487 - DEBUG - [chan 6] open(b'/tmp/suricata_output_1755336792/fast.log', 'rb') -> 00000000
+2025-08-16 17:33:27,490 - DEBUG - [chan 6] close(00000000)
+2025-08-16 17:33:27,492 - INFO - [chan 6] sftp session closed.
+2025-08-16 17:33:27,492 - DEBUG - [chan 6] EOF sent (6)
+2025-08-16 17:33:27,493 - INFO - ✅ 成功下载告警日志: fast.log
+2025-08-16 17:33:27,493 - INFO - 尝试下载JSON事件日志: /tmp/suricata_output_1755336792/eve.json
+2025-08-16 17:33:27,494 - DEBUG - [chan 7] Max packet in: 32768 bytes
+2025-08-16 17:33:27,494 - DEBUG - [chan 6] EOF received (6)
+2025-08-16 17:33:27,535 - DEBUG - [chan 7] Max packet out: 32768 bytes
+2025-08-16 17:33:27,535 - DEBUG - Secsh channel 7 opened.
+2025-08-16 17:33:27,536 - DEBUG - [chan 7] Sesch channel 7 request ok
+2025-08-16 17:33:27,548 - INFO - [chan 7] Opened sftp connection (server version 3)
+2025-08-16 17:33:27,549 - DEBUG - [chan 7] stat(b'/tmp/suricata_output_1755336792/eve.json')
+2025-08-16 17:33:27,551 - DEBUG - [chan 7] open(b'/tmp/suricata_output_1755336792/eve.json', 'rb')
+2025-08-16 17:33:27,552 - DEBUG - [chan 7] open(b'/tmp/suricata_output_1755336792/eve.json', 'rb') -> 00000000
+2025-08-16 17:33:27,556 - DEBUG - [chan 7] close(00000000)
+2025-08-16 17:33:27,558 - INFO - [chan 7] sftp session closed.
+2025-08-16 17:33:27,558 - DEBUG - [chan 7] EOF sent (7)
+2025-08-16 17:33:27,560 - INFO - ✅ 成功下载JSON事件日志: eve.json
+2025-08-16 17:33:27,560 - INFO - 尝试下载统计日志: /tmp/suricata_output_1755336792/stats.log
+2025-08-16 17:33:27,560 - DEBUG - [chan 8] Max packet in: 32768 bytes
+2025-08-16 17:33:27,561 - DEBUG - [chan 7] EOF received (7)
+2025-08-16 17:33:27,600 - DEBUG - [chan 8] Max packet out: 32768 bytes
+2025-08-16 17:33:27,600 - DEBUG - Secsh channel 8 opened.
+2025-08-16 17:33:27,602 - DEBUG - [chan 8] Sesch channel 8 request ok
+2025-08-16 17:33:27,613 - INFO - [chan 8] Opened sftp connection (server version 3)
+2025-08-16 17:33:27,614 - DEBUG - [chan 8] stat(b'/tmp/suricata_output_1755336792/stats.log')
+2025-08-16 17:33:27,615 - DEBUG - [chan 8] open(b'/tmp/suricata_output_1755336792/stats.log', 'rb')
+2025-08-16 17:33:27,616 - DEBUG - [chan 8] open(b'/tmp/suricata_output_1755336792/stats.log', 'rb') -> 00000000
+2025-08-16 17:33:27,620 - DEBUG - [chan 8] close(00000000)
+2025-08-16 17:33:27,622 - INFO - [chan 8] sftp session closed.
+2025-08-16 17:33:27,622 - DEBUG - [chan 8] EOF sent (8)
+2025-08-16 17:33:27,623 - INFO - ✅ 成功下载统计日志: stats.log
+2025-08-16 17:33:27,623 - DEBUG - [chan 8] EOF received (8)
+2025-08-16 17:33:27,624 - INFO - 📥 远程日志文件下载完成:
+• 成功下载: 3 个文件
+  - 告警日志(fast.log): 1,420 字节
+  - JSON事件日志(eve.json): 7,112 字节
+  - 统计日志(stats.log): 2,300 字节
+
+2025-08-16 17:33:27,625 - INFO - 解析完成: 成功 8 行，失败 0 行
+2025-08-16 17:33:27,625 - DEBUG - 开始解析Suricata日志，长度: 1533 字符
+2025-08-16 17:33:27,627 - DEBUG - 匹配到规则加载数: 64
+2025-08-16 17:33:27,627 - INFO - Suricata解析结果: {'total_packets': 0, 'dropped_packets': 0, 'packet_loss_rate': 0.0, 'alerts_count': 0, 'rules_loaded': 64, 'interface': '', 'invalid_checksum': 0}
+2025-08-16 17:33:27,628 - INFO - 匹配的行数: 1
+2025-08-16 17:33:27,628 - DEBUG -   - 规则加载: 16/8/2025 -- 09:56:04 - <Info> - 1 rule files processed. 64 rules successfully loaded, 0 rules failed
+2025-08-16 17:33:27,628 - INFO - 成功解析Suricata统计信息: {'total_packets': 0, 'dropped_packets': 0, 'packet_loss_rate': 0.0, 'alerts_count': 0, 'rules_loaded': 64, 'interface': '', 'invalid_checksum': 0}
+2025-08-16 17:33:27,629 - DEBUG - 从eve.json解析到: {'total_packets': 0, 'dropped_packets': 0, 'packet_loss_rate': 0.0, 'alerts_count': 0, 'rules_loaded': 0, 'interface': ''}
+2025-08-16 17:33:27,629 - INFO - 从eve.json解析到额外统计: {'total_packets': 0, 'dropped_packets': 0, 'packet_loss_rate': 0.0, 'alerts_count': 0, 'rules_loaded': 0, 'interface': ''}
+2025-08-16 17:33:27,630 - DEBUG - 从stats.log解析到: {'total_packets': 0, 'dropped_packets': 0, 'packet_loss_rate': 0.0, 'alerts_count': 0, 'rules_loaded': 0, 'interface': ''}
+2025-08-16 17:33:27,630 - INFO - 从stats.log解析到统计: {'total_packets': 0, 'dropped_packets': 0, 'packet_loss_rate': 0.0, 'alerts_count': 0, 'rules_loaded': 0, 'interface': ''}
+2025-08-16 17:33:27,631 - INFO - 最终统计结果: {'packet_loss_rate': 0.0, 'total_packets': 0, 'dropped_packets': 0, 'interface': 'unknown', 'rules_loaded': 64, 'data_source': 'unknown'}
+2025-08-16 17:33:27,631 - INFO - 📊 数据包分析完成 [WORKERS模式]
+
+🔍 统计信息 (unknown):
+• 网络接口: unknown
+• 总数据包: 0
+• 丢弃数据包: 0
+• 丢包率: 0.00% (正常)
+
+📋 检测结果:
+• 加载规则: 64 条
+• 检测告警: 8 个
+
+💡 丢包率分析:
+丢包率正常，分析质量良好
+2025-08-16 17:33:27,650 - DEBUG - EOF in transport thread
+2025-08-16 17:33:27,651 - INFO - EVE日志解析完成: 成功 4 行，失败 0 行
+2025-08-16 17:33:27,652 - INFO - 自动加载EVE日志文件成功: C:/Users/11y/Desktop/数据包\suricata_output\eve.json
